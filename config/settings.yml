@@ -1,0 +1,19 @@
+:ems:
+  :ems_alibaba:
+    :blacklisted_event_names: []
+    :event_handling:
+      :event_groups:
+:http_proxy:
+  :alibaba:
+    :host:
+    :password:
+    :port:
+    :user:
+:workers:
+  :worker_base:
+    :event_catcher:
+      :event_catcher_alibaba:
+        :poll: 20.seconds
+    :queue_worker_base:
+      :ems_refresh_worker:
+        :ems_refresh_worker_alibaba: {}
